@@ -29,37 +29,21 @@
 
     </header>
     <main>
-        <section class="login-conteiner">
-            <section class="text">
-                <div id="title">
-                    Create a new password
-                </div>
-                <div id="sub-tittle">
-                    Enter a new password for your account
-                </div>
-            </section>
-        
-            <section class="cont-form">
-                <form action="/" class="form">
-                    <label for="password" class="label">
-                        Password
-                    </label>
-                    <input type="password" id="password" placeholder="***********" class="input input-password">
-
-                    <label for="password" class="label">
-                        Re-enter password
-                    </label>
-                    <input type="password" id="password" placeholder="***********" class="input input-password">
-                </form>
-            </section>
-            
-            <section class="button-confirm">
-                <button type="submit" class="primary-button login-button" value="Confirm">
-                    Confirm
-                </button>
-            </section>
-            
-            
+        <section class="login-container">
+            <div class="text">
+                <h1 id="title">Create a new password</h1>
+                <p id="sub-title">Enter a new password for your account</p>
+            </div>
+    
+            <form action="/" class="form">
+                <label for="password" class="label">Password</label>
+                <input type="password" id="password" placeholder="***********" class="input input-password">
+    
+                <label for="repassword" class="label">Re-enter password</label>
+                <input type="password" id="repassword" placeholder="***********" class="input input-password">
+                
+                <button type="submit" class="primary-button login-button">Confirm</button>
+            </form>
         </section>
     </main>
 </body>
