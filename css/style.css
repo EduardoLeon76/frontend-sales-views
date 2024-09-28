@@ -1,0 +1,34 @@
+*{
+    font-size: 62.5%;
+}
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    overflow: hidden; /* Evita scroll innecesario */
+    font-size: 2.7rem;
+    /* La medida REM ha cambaido a 10px */
+    /* 1rem = 10px | 3.4rem = 34px */
+}
+header{
+    background-color: blue;
+    width: 100vw;
+    height: 10vh;
+}
+main{
+    background-color: blueviolet;
+    width: 100vw;
+    height: 90vh;
+}
+.login-conteiner{
+    width: 100%;
+    height: 100%;
+    background-color: brown;
+    display: grid;
+    place-items: center;
+}
+.text{
+    display: grid;
+    place-items: center;
+}
