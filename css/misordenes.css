@@ -1,0 +1,49 @@
+.my-order{
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    display: grid;
+    place-items: calc();
+
+}
+.title{
+    font-size: var(--lg);
+    margin-bottom: 40px;
+}
+.my-order-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.my-order-content{
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    width: 300px;
+    
+}
+.order{
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    align-items: center;
+    margin-bottom: 12px;
+}
+.order .flechita{
+    padding-left: 18px;
+}
+.order p:nth-child(1){
+    display: flex;
+    flex-direction: column;
+}
+.order p:nth-child(2){
+    text-align: end;
+    font-weight: bold;
+}
+.order p span:nth-child(1){
+    font-size: var(--md);
+    font-weight: bold;
+}
+.order p span:nth-child(2){
+    font-size: var(--sm);
+    color: var(--very-light-pink);
+}
